@@ -1,0 +1,25 @@
+﻿figure_no,file_name,suggested_use,notes
+1,fig_01_data_audit_nonmissing_cells.png,main_text,PNG only; 600 DPI; academic dark style
+2,fig_02_data_audit_missing_fraction.png,main_text,PNG only; 600 DPI; academic dark style
+3,fig_03_extracted_metric_groups.png,main_text,PNG only; 600 DPI; academic dark style
+4,fig_04_real_hydrodynamic_targets.png,main_text,PNG only; 600 DPI; academic dark style
+5,fig_05_region_specific_colonization_timecourse.png,main_text,PNG only; 600 DPI; academic dark style
+6,fig_06_regional_colonization_ratios.png,main_text,PNG only; 600 DPI; academic dark style
+7,fig_07_data_informed_integration_timecourse.png,main_text,PNG only; 600 DPI; academic dark style
+8,fig_08_ecm_marker_timecourse.png,main_text,PNG only; 600 DPI; academic dark style
+9,fig_09_polymer_gpc_mn_mw_trends.png,main_text,PNG only; 600 DPI; academic dark style
+10,fig_10_fiber_diameter_change.png,main_text,PNG only; 600 DPI; academic dark style
+11,fig_11_mc_interval_cell_index.png,main_text,PNG only; 600 DPI; academic dark style
+12,fig_11_mc_interval_ECM_index.png,main_text,PNG only; 600 DPI; academic dark style
+13,fig_11_mc_interval_hinge_share.png,supplementary,PNG only; 600 DPI; academic dark style
+14,fig_11_mc_interval_integration_index.png,supplementary,PNG only; 600 DPI; academic dark style
+15,fig_12_scenario_objective_score_comparison.png,supplementary,PNG only; 600 DPI; academic dark style
+16,fig_13_scenario_feasibility_rates.png,supplementary,PNG only; 600 DPI; academic dark style
+17,fig_14_design_space_thickness_vs_gradient.png,supplementary,PNG only; 600 DPI; academic dark style
+18,fig_15_pareto_front_gradient_integration.png,supplementary,PNG only; 600 DPI; academic dark style
+19,fig_16_ablation_scaled_endpoint_comparison.png,supplementary,PNG only; 600 DPI; academic dark style
+20,fig_17_spearman_correlation_heatmap.png,supplementary,PNG only; 600 DPI; academic dark style
+21,fig_18_feature_importance_objective_score.png,supplementary,PNG only; 600 DPI; academic dark style
+22,fig_19_calibration_check_gradient_by_context.png,supplementary,PNG only; 600 DPI; academic dark style
+23,fig_20_full_data_informed_endpoint_dashboard.png,supplementary,PNG only; 600 DPI; academic dark style
+24,fig_21_extracted_metric_value_distributions.png,supplementary,PNG only; 600 DPI; academic dark style

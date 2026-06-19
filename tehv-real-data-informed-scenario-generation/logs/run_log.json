@@ -1,0 +1,12 @@
+{
+  "timestamp": "2026-06-17T13:32:29.397615",
+  "output_dir": "C:\\Users\\203280\\OneDrive - University of Sharjah\\Desktop\\Result",
+  "dataset_path": "C:\\Users\\203280\\OneDrive - University of Sharjah\\Desktop\\Result\\TEHV_real_data_extraction_dataset_v2.xlsx",
+  "results_path": "C:\\Users\\203280\\OneDrive - University of Sharjah\\Desktop\\Result\\TEHV_real_data_informed_generated_results_v1.xlsx",
+  "style_mode": "dark_academic",
+  "save_png_only": true,
+  "n_candidate_rows": 4800,
+  "n_figures": 24,
+  "final_excel": "C:\\Users\\203280\\OneDrive - University of Sharjah\\Desktop\\Result\\excel_outputs\\TEHV_all_possible_generated_results.xlsx",
+  "scientific_warning": "Scenario results are literature-calibrated and exploratory; not clinical validation."
+}

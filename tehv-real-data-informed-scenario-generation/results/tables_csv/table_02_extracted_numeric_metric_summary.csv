@@ -1,0 +1,19 @@
+﻿source_id,metric_group,unit,n_metrics,mean_of_means,sd_of_means
+SRC_SCAF_001,hydrodynamic,% pulmonary regurgitation,1,11.47,
+SRC_SCAF_001,hydrodynamic,cm^2 EOA,1,2.15,
+SRC_SCAF_001,hydrodynamic,mmHg peak systolic gradient,1,23.37,
+SRC_SCAF_001,leaflet_thickness,mm,2,1.12275,0.7159456159513794
+SRC_SCAF_001,molecular_weight,% of original Mw,3,83.24,4.011520908583181
+SRC_SCAF_001,pore_size,µm bins,1,0.5138,
+SRC_SCAF_001,sinus_wall_thickness,mm,4,4.7225,2.1193926016668074
+SRC_SCAF_002,DNA,ng DNA/mg dry weight,5,1461.92816,931.4120076520664
+SRC_SCAF_002,GPC_Dispersity,dimensionless dispersity,5,2.01416,0.05371799512267751
+SRC_SCAF_002,GPC_Mn,kg/mol,5,36.97916,3.1185546977726757
+SRC_SCAF_002,GPC_Mw,kg/mol,5,74.04017999999999,5.2283818301650395
+SRC_SCAF_002,cell_density,cells/mm^2,15,1128.9799866666665,1188.092006292074
+SRC_SCAF_002,collagen_area_ratio,% area,15,18.787733333333335,20.637827754104723
+SRC_SCAF_002,fiber_diameter_explant,µm,5,3.692,0.09602083107326236
+SRC_SCAF_002,fiber_diameter_pre_implant,µm,5,3.6390864,0.12727082087147848
+SRC_SCAF_002,glycosaminoglycan,µg GAG/mg dry weight,5,11.504000000000001,6.422481832204744
+SRC_SCAF_002,hydroxyproline,µg HYP/mg dry weight,5,9.335460000000001,8.629490263219491
+SRC_SCAF_002,invasive_transvalvular_peak_gradient,mmHg,4,32.75,2.3629078131263053
