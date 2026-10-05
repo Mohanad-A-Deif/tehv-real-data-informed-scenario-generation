@@ -1,0 +1,5 @@
+﻿old_or_risky_claim,data_informed_revision,basis,claim_strength
+The optimizer reduces scaffold persistence by ~79% vs Yacoub.,"Yacoub should be used as a reference/calibration case, not as a superiority comparator.",Yacoub molecular-weight retention and hydrodynamic values indicate persistent scaffold response over months.,"moderate; literature-calibrated, not clinically validated"
+Colonization is uniformly high across the scaffold.,Biological integration is region-specific; hinge/belly/tip patterns should be reported separately.,Region-specific cell density and hinge/belly ratios from extracted data.,stronger than uniform claim; still source-limited
+Pressure gradient is an arbitrary surrogate.,Pressure-gradient endpoint is calibrated to extracted mmHg hydrodynamic targets.,Yacoub HCCV and Vis aortic sheep gradient references.,improved; pulmonary/aortic contexts must not be pooled uncritically
+RL gives a patient-specific scaffold prescription.,The framework performs real-data-informed exploratory design optimization under uncertainty.,No patient-level clinical validation; data are literature-extracted and aggregate.,safe and defensible

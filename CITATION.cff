@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "If you use this dataset or code, please cite the associated manuscript once available."
+title: "Real-Data-Informed TEHV Scaffold Scenario Generation"
+authors:
+  - family-names: "Deif"
+    given-names: "Mohanad A."
+year: 2026
+repository-code: "https://github.com/"
+license: MIT

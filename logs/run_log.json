@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-10-05",
+  "revision": "R1",
+  "output_dir": "generated_outputs",
+  "dataset_path": "data/TEHV_real_data_extraction_dataset_v2.xlsx",
+  "results_path": "data/TEHV_real_data_informed_generated_results_v1.xlsx",
+  "style_mode": "dark_academic",
+  "save_png_only": true,
+  "n_candidate_rows": 4800,
+  "n_figures": 24,
+  "final_excel": "results/excel_outputs/TEHV_all_possible_generated_results.xlsx",
+  "correction": "Pulmonary gradient target now parsed as 23.37 mmHg (previously overwritten by the 1.40 aortic-to-pulmonary ratio row).",
+  "scientific_warning": "Scenario results are literature-calibrated and exploratory; not clinical validation."
+}

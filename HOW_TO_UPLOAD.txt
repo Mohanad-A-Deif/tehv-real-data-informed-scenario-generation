@@ -1,0 +1,8 @@
+This folder is the COMPLETE repository for revision R1.
+
+1. Delete everything in the GitHub repository.
+2. Upload everything in this folder, keeping the same folder structure.
+3. Do not upload this file (HOW_TO_UPLOAD.txt). Delete it first.
+
+Suggested commit message:
+  Fix pulmonary gradient target parsing (23.37 mmHg); regenerate results; add R1 robustness analyses
