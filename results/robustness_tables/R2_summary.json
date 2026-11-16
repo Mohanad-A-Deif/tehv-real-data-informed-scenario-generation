@@ -1,0 +1,1245 @@
+{
+ "summary": {
+  "baseline": {
+   "J_mean": 0.3052,
+   "J_std": 0.1181,
+   "J_median": 0.3177,
+   "G_mean": 24.1129,
+   "G_std": 12.312,
+   "G_median": 23.9237,
+   "E_mean": 2.3037,
+   "E_std": 0.4696,
+   "E_median": 2.3204,
+   "Mw_mean": 64.9357,
+   "Mw_std": 12.4345,
+   "Mw_median": 68.7118,
+   "I_mean": 0.5441,
+   "I_std": 0.1419,
+   "I_median": 0.5475,
+   "R_mean": 12.1129,
+   "R_std": 3.4407,
+   "R_median": 11.9864,
+   "F_mean": 0.3821,
+   "F_std": 0.277,
+   "F_median": 0.3246,
+   "feasible_mean": 0.2758,
+   "feasible_std": 0.4471,
+   "feasible_median": 0.0
+  },
+  "hydrodynamic_only": {
+   "J_mean": 0.3831,
+   "J_std": 0.0987,
+   "J_median": 0.3941,
+   "G_mean": 25.6962,
+   "G_std": 9.3961,
+   "G_median": 25.3332,
+   "E_mean": 2.2602,
+   "E_std": 0.3153,
+   "E_median": 2.258,
+   "Mw_mean": 69.5325,
+   "Mw_std": 11.0542,
+   "Mw_median": 72.3129,
+   "I_mean": 0.6007,
+   "I_std": 0.1323,
+   "I_median": 0.6103,
+   "R_mean": 10.7162,
+   "R_std": 3.0161,
+   "R_median": 10.4262,
+   "F_mean": 0.2295,
+   "F_std": 0.1993,
+   "F_median": 0.1614,
+   "feasible_mean": 0.5125,
+   "feasible_std": 0.5001,
+   "feasible_median": 1.0
+  },
+  "biology_only": {
+   "J_mean": 0.4855,
+   "J_std": 0.0752,
+   "J_median": 0.4989,
+   "G_mean": 27.456,
+   "G_std": 9.8191,
+   "G_median": 27.6932,
+   "E_mean": 2.1678,
+   "E_std": 0.3455,
+   "E_median": 2.1605,
+   "Mw_mean": 85.0806,
+   "Mw_std": 3.769,
+   "Mw_median": 85.2863,
+   "I_mean": 0.7007,
+   "I_std": 0.1078,
+   "I_median": 0.7116,
+   "R_mean": 10.8973,
+   "R_std": 3.0076,
+   "R_median": 10.7959,
+   "F_mean": 0.0981,
+   "F_std": 0.0983,
+   "F_median": 0.0647,
+   "feasible_mean": 0.8533,
+   "feasible_std": 0.3539,
+   "feasible_median": 1.0
+  },
+  "full_data_informed": {
+   "J_mean": 0.5141,
+   "J_std": 0.0473,
+   "J_median": 0.5205,
+   "G_mean": 27.6583,
+   "G_std": 7.5024,
+   "G_median": 27.5411,
+   "E_mean": 2.1507,
+   "E_std": 0.2305,
+   "E_median": 2.1495,
+   "Mw_mean": 85.63,
+   "Mw_std": 3.2069,
+   "Mw_median": 85.7512,
+   "I_mean": 0.7182,
+   "I_std": 0.0683,
+   "I_median": 0.7239,
+   "R_mean": 10.5608,
+   "R_std": 2.7736,
+   "R_median": 10.5721,
+   "F_mean": 0.0679,
+   "F_std": 0.0408,
+   "F_median": 0.0577,
+   "feasible_mean": 0.9783,
+   "feasible_std": 0.1457,
+   "feasible_median": 1.0
+  }
+ },
+ "top50": {
+  "ctx": {
+   "pulmonary": 26,
+   "aortic": 24
+  },
+  "group": {
+   "biology_only": 32,
+   "full_data_informed": 16,
+   "hydrodynamic_only": 2
+  },
+  "means": {
+   "T": {
+    "mean": 0.5987,
+    "std": 0.0671
+   },
+   "P": {
+    "mean": 0.7991,
+    "std": 0.1317
+   },
+   "H": {
+    "mean": 61.5902,
+    "std": 9.5031
+   },
+   "M": {
+    "mean": 0.1104,
+    "std": 0.0884
+   },
+   "G": {
+    "mean": 26.9103,
+    "std": 5.0925
+   },
+   "E": {
+    "mean": 2.3167,
+    "std": 0.1617
+   },
+   "Mw": {
+    "mean": 87.4946,
+    "std": 2.964
+   },
+   "I": {
+    "mean": 0.8636,
+    "std": 0.0287
+   },
+   "R": {
+    "mean": 9.5932,
+    "std": 2.4467
+   },
+   "F": {
+    "mean": 0.0535,
+    "std": 0.0172
+   },
+   "J": {
+    "mean": 0.6089,
+    "std": 0.0113
+   }
+  },
+  "best": {
+   "group": "full_data_informed",
+   "ctx": "pulmonary",
+   "T": 0.4858,
+   "P": 0.9611,
+   "H": 59.0402,
+   "M": 0.2071,
+   "S": 0.8741,
+   "Gs": 23.37,
+   "G": 21.0815,
+   "E": 2.6811,
+   "Mw": 90.0564,
+   "I": 0.8977,
+   "Q": 3.6827,
+   "R": 13.5531,
+   "F": 0.0393,
+   "J": 0.6386,
+   "c_T": "True",
+   "c_G": "True",
+   "c_R": "True",
+   "c_Mw": "True",
+   "c_I": "True",
+   "c_F": "True",
+   "feasible": 1.0
+  }
+ },
+ "pareto": {
+  "n": 82,
+  "by_group": {
+   "full_data_informed": 40,
+   "biology_only": 40,
+   "hydrodynamic_only": 2
+  },
+  "in_top1800": {
+   "full_data_informed": 905,
+   "biology_only": 669,
+   "hydrodynamic_only": 175,
+   "baseline": 51
+  }
+ },
+ "spearman": {
+  "T": 0.114,
+  "P": 0.356,
+  "H": 0.678,
+  "M": -0.559,
+  "S": 0.251,
+  "G": 0.053,
+  "E": -0.022,
+  "Mw": 0.701,
+  "R": -0.282,
+  "F": -0.758
+ },
+ "constraint_pass": {
+  "baseline": {
+   "c_T": 0.7325,
+   "c_G": 0.8875,
+   "c_R": 1.0,
+   "c_Mw": 0.605,
+   "c_I": 0.7383,
+   "c_F": 0.5375,
+   "feasible": 0.2758
+  },
+  "hydrodynamic_only": {
+   "c_T": 0.93,
+   "c_G": 0.9533,
+   "c_R": 1.0,
+   "c_Mw": 0.7175,
+   "c_I": 0.8558,
+   "c_F": 0.7592,
+   "feasible": 0.5125
+  },
+  "biology_only": {
+   "c_T": 0.9517,
+   "c_G": 0.9167,
+   "c_R": 1.0,
+   "c_Mw": 0.9992,
+   "c_I": 0.9733,
+   "c_F": 0.9608,
+   "feasible": 0.8533
+  },
+  "full_data_informed": {
+   "c_T": 1.0,
+   "c_G": 0.9783,
+   "c_R": 1.0,
+   "c_Mw": 1.0,
+   "c_I": 1.0,
+   "c_F": 0.9992,
+   "feasible": 0.9783
+  }
+ },
+ "seeds": {
+  "feas_baseline": [
+   0.2781,
+   0.2516,
+   0.2993
+  ],
+  "feas_hydrodynamic_only": [
+   0.5179,
+   0.4883,
+   0.5434
+  ],
+  "feas_biology_only": [
+   0.8424,
+   0.8233,
+   0.8642
+  ],
+  "feas_full_data_informed": [
+   0.9815,
+   0.9742,
+   0.9875
+  ],
+  "J_baseline": [
+   0.3064,
+   0.3002,
+   0.3132
+  ],
+  "J_hydrodynamic_only": [
+   0.3812,
+   0.3761,
+   0.3859
+  ],
+  "J_biology_only": [
+   0.4831,
+   0.4792,
+   0.4877
+  ],
+  "J_full_data_informed": [
+   0.515,
+   0.5126,
+   0.5176
+  ],
+  "order_feas_frac": 1.0,
+  "order_J_frac": 1.0
+ },
+ "oat": {
+  "all_order_feas": true,
+  "all_order_J": true,
+  "n": 92,
+  "gap_range": [
+   0.6691666666666667,
+   0.7441666666666668
+  ],
+  "most_influential": {
+   "f_Mw": {
+    "gap_min": 0.6775,
+    "gap_max": 0.7433,
+    "full_feas_min": 0.9783,
+    "full_feas_max": 0.9783,
+    "base_feas_min": 0.235,
+    "base_feas_max": 0.3008
+   },
+   "f_0": {
+    "gap_min": 0.6692,
+    "gap_max": 0.73,
+    "full_feas_min": 0.915,
+    "full_feas_max": 0.9783,
+    "base_feas_min": 0.185,
+    "base_feas_max": 0.3092
+   },
+   "i_P": {
+    "gap_min": 0.6842,
+    "gap_max": 0.7442,
+    "full_feas_min": 0.9783,
+    "full_feas_max": 0.9783,
+    "base_feas_min": 0.2342,
+    "base_feas_max": 0.2942
+   },
+   "i_S": {
+    "gap_min": 0.6867,
+    "gap_max": 0.7283,
+    "full_feas_min": 0.9783,
+    "full_feas_max": 0.9783,
+    "base_feas_min": 0.25,
+    "base_feas_max": 0.2917
+   },
+   "i_T": {
+    "gap_min": 0.6883,
+    "gap_max": 0.725,
+    "full_feas_min": 0.9783,
+    "full_feas_max": 0.9783,
+    "base_feas_min": 0.2533,
+    "base_feas_max": 0.29
+   },
+   "m_M": {
+    "gap_min": 0.6908,
+    "gap_max": 0.7225,
+    "full_feas_min": 0.9783,
+    "full_feas_max": 0.9783,
+    "base_feas_min": 0.2558,
+    "base_feas_max": 0.2875
+   }
+  }
+ },
+ "global": {
+  "0.2": {
+   "order_feas": 1.0,
+   "order_J": 1.0,
+   "full_gt_base": 1.0,
+   "feas_baseline": [
+    0.2742,
+    0.2183,
+    0.3258
+   ],
+   "feas_hydrodynamic_only": [
+    0.5108,
+    0.4475,
+    0.5708
+   ],
+   "feas_biology_only": [
+    0.8542,
+    0.8117,
+    0.8908
+   ],
+   "feas_full_data_informed": [
+    0.9767,
+    0.955,
+    0.9933
+   ],
+   "J_baseline": [
+    0.3065,
+    0.2755,
+    0.3339
+   ],
+   "J_hydrodynamic_only": [
+    0.3839,
+    0.3568,
+    0.4071
+   ],
+   "J_biology_only": [
+    0.4857,
+    0.4627,
+    0.5059
+   ],
+   "J_full_data_informed": [
+    0.5139,
+    0.4998,
+    0.5264
+   ]
+  },
+  "0.5": {
+   "order_feas": 1.0,
+   "order_J": 0.999,
+   "full_gt_base": 1.0,
+   "feas_baseline": [
+    0.26,
+    0.1575,
+    0.3759
+   ],
+   "feas_hydrodynamic_only": [
+    0.4912,
+    0.3558,
+    0.6108
+   ],
+   "feas_biology_only": [
+    0.8342,
+    0.7241,
+    0.9233
+   ],
+   "feas_full_data_informed": [
+    0.9708,
+    0.895,
+    0.9992
+   ],
+   "J_baseline": [
+    0.306,
+    0.2324,
+    0.3746
+   ],
+   "J_hydrodynamic_only": [
+    0.3805,
+    0.3167,
+    0.4391
+   ],
+   "J_biology_only": [
+    0.4823,
+    0.4227,
+    0.5323
+   ],
+   "J_full_data_informed": [
+    0.5102,
+    0.4722,
+    0.5426
+   ]
+  }
+ },
+ "weights_named": {
+  "original": {
+   "J_baseline": 0.305,
+   "J_hydrodynamic_only": 0.383,
+   "J_biology_only": 0.486,
+   "J_full_data_informed": 0.514,
+   "order_J": true,
+   "rho_all": 1.0,
+   "rho_feasible": 1.0,
+   "tau_feasible": 1.0,
+   "top50_overlap": 1.0,
+   "top50_full": 0.32,
+   "top50_bio": 0.64,
+   "top50_aortic": 0.48,
+   "top1_same": true
+  },
+  "equal": {
+   "J_baseline": 0.107,
+   "J_hydrodynamic_only": 0.184,
+   "J_biology_only": 0.281,
+   "J_full_data_informed": 0.316,
+   "order_J": true,
+   "rho_all": 0.959,
+   "rho_feasible": 0.906,
+   "tau_feasible": 0.733,
+   "top50_overlap": 0.56,
+   "top50_full": 0.56,
+   "top50_bio": 0.42,
+   "top50_aortic": 0.66,
+   "top1_same": false
+  },
+  "hydrodynamic_emphasis": {
+   "J_baseline": 0.245,
+   "J_hydrodynamic_only": 0.323,
+   "J_biology_only": 0.382,
+   "J_full_data_informed": 0.422,
+   "order_J": true,
+   "rho_all": 0.935,
+   "rho_feasible": 0.881,
+   "tau_feasible": 0.697,
+   "top50_overlap": 0.6,
+   "top50_full": 0.5,
+   "top50_bio": 0.46,
+   "top50_aortic": 0.5,
+   "top1_same": false
+  },
+  "biology_emphasis": {
+   "J_baseline": 0.479,
+   "J_hydrodynamic_only": 0.552,
+   "J_biology_only": 0.677,
+   "J_full_data_informed": 0.701,
+   "order_J": true,
+   "rho_all": 0.977,
+   "rho_feasible": 0.964,
+   "tau_feasible": 0.835,
+   "top50_overlap": 0.74,
+   "top50_full": 0.22,
+   "top50_bio": 0.76,
+   "top50_aortic": 0.44,
+   "top1_same": false
+  },
+  "safety_emphasis": {
+   "J_baseline": 0.093,
+   "J_hydrodynamic_only": 0.189,
+   "J_biology_only": 0.31,
+   "J_full_data_informed": 0.343,
+   "order_J": true,
+   "rho_all": 0.974,
+   "rho_feasible": 0.953,
+   "tau_feasible": 0.811,
+   "top50_overlap": 0.64,
+   "top50_full": 0.56,
+   "top50_bio": 0.42,
+   "top50_aortic": 0.6,
+   "top1_same": false
+  },
+  "degradation_emphasis": {
+   "J_baseline": 0.411,
+   "J_hydrodynamic_only": 0.484,
+   "J_biology_only": 0.608,
+   "J_full_data_informed": 0.633,
+   "order_J": true,
+   "rho_all": 0.966,
+   "rho_feasible": 0.943,
+   "tau_feasible": 0.795,
+   "top50_overlap": 0.66,
+   "top50_full": 0.5,
+   "top50_bio": 0.5,
+   "top50_aortic": 0.54,
+   "top1_same": false
+  }
+ },
+ "weights_random": {
+  "0.2": {
+   "order_J": 1.0,
+   "full_best": 1.0,
+   "base_worst": 1.0,
+   "rho_all": [
+    0.999,
+    0.997,
+    1.0
+   ],
+   "rho_feasible": [
+    0.998,
+    0.995,
+    1.0
+   ],
+   "tau_feasible": [
+    0.964,
+    0.94,
+    0.985
+   ],
+   "top50_overlap": [
+    0.96,
+    0.88,
+    1.0
+   ],
+   "top50_full": [
+    0.32,
+    0.28,
+    0.4
+   ],
+   "top50_bio": [
+    0.64,
+    0.58,
+    0.66
+   ],
+   "top1_same": 0.819
+  },
+  "0.5": {
+   "order_J": 1.0,
+   "full_best": 1.0,
+   "base_worst": 1.0,
+   "rho_all": [
+    0.994,
+    0.98,
+    0.999
+   ],
+   "rho_feasible": [
+    0.989,
+    0.96,
+    0.998
+   ],
+   "tau_feasible": [
+    0.909,
+    0.826,
+    0.965
+   ],
+   "top50_overlap": [
+    0.86,
+    0.68,
+    0.96
+   ],
+   "top50_full": [
+    0.34,
+    0.2,
+    0.5
+   ],
+   "top50_bio": [
+    0.62,
+    0.48,
+    0.74
+   ],
+   "top1_same": 0.559
+  },
+  "dirichlet": {
+   "order_J": 0.998,
+   "full_best": 0.999,
+   "base_worst": 1.0,
+   "rho_all": [
+    0.897,
+    0.672,
+    0.982
+   ],
+   "rho_feasible": [
+    0.8,
+    0.56,
+    0.972
+   ],
+   "tau_feasible": [
+    0.605,
+    0.399,
+    0.856
+   ],
+   "top50_overlap": [
+    0.38,
+    0.1,
+    0.78
+   ],
+   "top50_full": [
+    0.52,
+    0.18,
+    0.74
+   ],
+   "top50_bio": [
+    0.44,
+    0.24,
+    0.74
+   ],
+   "top1_same": 0.118
+  }
+ },
+ "thresholds": {
+  "all_order": true,
+  "full_range": [
+   0.94,
+   0.9933333333333333
+  ],
+  "base_range": [
+   0.0475,
+   0.34
+  ]
+ },
+ "ablation": {
+  "full (as reported)": {
+   "feas": 0.9783,
+   "J": 0.5141,
+   "I": 0.7182,
+   "I_sd": 0.0683,
+   "I_p95": 0.8164,
+   "F": 0.0679,
+   "pareto_full": 40,
+   "pareto_bio": 40,
+   "top50_full": 16
+  },
+  "no integration anchoring": {
+   "feas": 0.9708,
+   "J": 0.5072,
+   "I": 0.7019,
+   "I_sd": 0.0943,
+   "I_p95": 0.836,
+   "F": 0.0679,
+   "pareto_full": 45,
+   "pareto_bio": 39,
+   "top50_full": 26
+  },
+  "equal noise + no anchoring": {
+   "feas": 0.95,
+   "J": 0.504,
+   "I": 0.6995,
+   "I_sd": 0.1069,
+   "I_p95": 0.8485,
+   "F": 0.0703,
+   "pareto_full": 58,
+   "pareto_bio": 44,
+   "top50_full": 29
+  },
+  "equal noise + no anchoring + T truncated at 0.22": {
+   "feas": 0.9483,
+   "J": 0.5038,
+   "I": 0.6994,
+   "I_sd": 0.107,
+   "I_p95": 0.8485,
+   "F": 0.0711,
+   "pareto_full": 58,
+   "pareto_bio": 44,
+   "top50_full": 29
+  }
+ },
+ "I_tail": {
+  "baseline": [
+   0.548,
+   0.767,
+   0.836,
+   0.922
+  ],
+  "hydrodynamic_only": [
+   0.61,
+   0.799,
+   0.849,
+   0.897
+  ],
+  "biology_only": [
+   0.712,
+   0.853,
+   0.889,
+   0.932
+  ],
+  "full_data_informed": [
+   0.724,
+   0.816,
+   0.851,
+   0.921
+  ]
+ },
+ "heldout": {
+  "LOTO_Mw_MAPE": 6.8545288473436585,
+  "LOTO_Mw_max": 13.736455150732638,
+  "LOTO_halflife_range": [
+   30.572447637929642,
+   101.54355748642719
+  ],
+  "full_fit_R2": 0.5460592382087249,
+  "LOTO_grad_MAE": 2.333333333333335,
+  "LOTO_grad_max": 4.333333333333332,
+  "yacoub_obs_6m": 83.24,
+  "yacoub_range": [
+   78.82,
+   86.65
+  ],
+  "model_pred_6m": 93.16713781608166,
+  "cross_study_err_pp": 9.927137816081668,
+  "H_yacoub_implied": 22.671356076258835
+ },
+ "cal_sens": {
+  "Vis GPC (as reported)": {
+   "H": 58.7619,
+   "feas_baseline": 0.2758,
+   "feas_hydrodynamic_only": 0.5125,
+   "feas_biology_only": 0.8533,
+   "feas_full_data_informed": 0.9783,
+   "J_baseline": 0.3052,
+   "J_hydrodynamic_only": 0.3831,
+   "J_biology_only": 0.4855,
+   "J_full_data_informed": 0.5141,
+   "Mw_full": 85.63,
+   "order_feas": true,
+   "order_J": true
+  },
+  "LOTO min half-life": {
+   "H": 30.5724,
+   "feas_baseline": 0.2758,
+   "feas_hydrodynamic_only": 0.5125,
+   "feas_biology_only": 0.6692,
+   "feas_full_data_informed": 0.9725,
+   "J_baseline": 0.3052,
+   "J_hydrodynamic_only": 0.3831,
+   "J_biology_only": 0.4405,
+   "J_full_data_informed": 0.4887,
+   "Mw_full": 76.763,
+   "order_feas": true,
+   "order_J": true
+  },
+  "LOTO max half-life": {
+   "H": 101.5436,
+   "feas_baseline": 0.2758,
+   "feas_hydrodynamic_only": 0.5125,
+   "feas_biology_only": 0.855,
+   "feas_full_data_informed": 0.9783,
+   "J_baseline": 0.3052,
+   "J_hydrodynamic_only": 0.3831,
+   "J_biology_only": 0.4956,
+   "J_full_data_informed": 0.5226,
+   "Mw_full": 90.3146,
+   "order_feas": true,
+   "order_J": true
+  },
+  "Yacoub-only (6-month retention)": {
+   "H": 22.6714,
+   "feas_baseline": 0.2758,
+   "feas_hydrodynamic_only": 0.5125,
+   "feas_biology_only": 0.4767,
+   "feas_full_data_informed": 0.97,
+   "J_baseline": 0.3052,
+   "J_hydrodynamic_only": 0.3831,
+   "J_biology_only": 0.4199,
+   "J_full_data_informed": 0.4846,
+   "Mw_full": 75.2725,
+   "order_feas": false,
+   "order_J": true
+  },
+  "Vis Mn-based": {
+   "H": 42.2,
+   "feas_baseline": 0.2758,
+   "feas_hydrodynamic_only": 0.5125,
+   "feas_biology_only": 0.8183,
+   "feas_full_data_informed": 0.9758,
+   "J_baseline": 0.3052,
+   "J_hydrodynamic_only": 0.3831,
+   "J_biology_only": 0.4678,
+   "J_full_data_informed": 0.5016,
+   "Mw_full": 80.801,
+   "order_feas": true,
+   "order_J": true
+  },
+  "G_pul -1SD": {
+   "H": 58.7619,
+   "feas_baseline": 0.2758,
+   "feas_hydrodynamic_only": 0.5125,
+   "feas_biology_only": 0.8533,
+   "feas_full_data_informed": 0.9783,
+   "J_baseline": 0.3041,
+   "J_hydrodynamic_only": 0.3822,
+   "J_biology_only": 0.4845,
+   "J_full_data_informed": 0.5134,
+   "Mw_full": 85.63,
+   "order_feas": true,
+   "order_J": true
+  },
+  "G_pul +1SD": {
+   "H": 58.7619,
+   "feas_baseline": 0.2758,
+   "feas_hydrodynamic_only": 0.5125,
+   "feas_biology_only": 0.8533,
+   "feas_full_data_informed": 0.9783,
+   "J_baseline": 0.3063,
+   "J_hydrodynamic_only": 0.3839,
+   "J_biology_only": 0.4864,
+   "J_full_data_informed": 0.5147,
+   "Mw_full": 85.63,
+   "order_feas": true,
+   "order_J": true
+  },
+  "G_ao LOTO min": {
+   "H": 58.7619,
+   "feas_baseline": 0.2758,
+   "feas_hydrodynamic_only": 0.5125,
+   "feas_biology_only": 0.8533,
+   "feas_full_data_informed": 0.9783,
+   "J_baseline": 0.3047,
+   "J_hydrodynamic_only": 0.3827,
+   "J_biology_only": 0.4852,
+   "J_full_data_informed": 0.5139,
+   "Mw_full": 85.63,
+   "order_feas": true,
+   "order_J": true
+  },
+  "G_ao LOTO max": {
+   "H": 58.7619,
+   "feas_baseline": 0.2758,
+   "feas_hydrodynamic_only": 0.5125,
+   "feas_biology_only": 0.8533,
+   "feas_full_data_informed": 0.9783,
+   "J_baseline": 0.3054,
+   "J_hydrodynamic_only": 0.3832,
+   "J_biology_only": 0.4857,
+   "J_full_data_informed": 0.5142,
+   "Mw_full": 85.63,
+   "order_feas": true,
+   "order_J": true
+  },
+  "E -1SD": {
+   "H": 58.7619,
+   "feas_baseline": 0.2758,
+   "feas_hydrodynamic_only": 0.5125,
+   "feas_biology_only": 0.8533,
+   "feas_full_data_informed": 0.9783,
+   "J_baseline": 0.3022,
+   "J_hydrodynamic_only": 0.3801,
+   "J_biology_only": 0.4825,
+   "J_full_data_informed": 0.5111,
+   "Mw_full": 85.63,
+   "order_feas": true,
+   "order_J": true
+  },
+  "E +1SD": {
+   "H": 58.7619,
+   "feas_baseline": 0.2758,
+   "feas_hydrodynamic_only": 0.5125,
+   "feas_biology_only": 0.8533,
+   "feas_full_data_informed": 0.9783,
+   "J_baseline": 0.3082,
+   "J_hydrodynamic_only": 0.3861,
+   "J_biology_only": 0.4885,
+   "J_full_data_informed": 0.5171,
+   "Mw_full": 85.63,
+   "order_feas": true,
+   "order_J": true
+  },
+  "R -1SD": {
+   "H": 58.7619,
+   "feas_baseline": 0.2758,
+   "feas_hydrodynamic_only": 0.5125,
+   "feas_biology_only": 0.8533,
+   "feas_full_data_informed": 0.9783,
+   "J_baseline": 0.3052,
+   "J_hydrodynamic_only": 0.3831,
+   "J_biology_only": 0.4855,
+   "J_full_data_informed": 0.5141,
+   "Mw_full": 85.63,
+   "order_feas": true,
+   "order_J": true
+  },
+  "R +1SD": {
+   "H": 58.7619,
+   "feas_baseline": 0.2758,
+   "feas_hydrodynamic_only": 0.5125,
+   "feas_biology_only": 0.8533,
+   "feas_full_data_informed": 0.9783,
+   "J_baseline": 0.3051,
+   "J_hydrodynamic_only": 0.383,
+   "J_biology_only": 0.4855,
+   "J_full_data_informed": 0.5141,
+   "Mw_full": 85.63,
+   "order_feas": true,
+   "order_J": true
+  },
+  "I12 = 0.44 (MC 2.5%)": {
+   "H": 58.7619,
+   "feas_baseline": 0.2758,
+   "feas_hydrodynamic_only": 0.5125,
+   "feas_biology_only": 0.8533,
+   "feas_full_data_informed": 0.9667,
+   "J_baseline": 0.3052,
+   "J_hydrodynamic_only": 0.3831,
+   "J_biology_only": 0.4855,
+   "J_full_data_informed": 0.4685,
+   "Mw_full": 85.63,
+   "order_feas": true,
+   "order_J": false
+  },
+  "I12 = 1.00 (MC 97.5%)": {
+   "H": 58.7619,
+   "feas_baseline": 0.2758,
+   "feas_hydrodynamic_only": 0.5125,
+   "feas_biology_only": 0.8533,
+   "feas_full_data_informed": 0.9783,
+   "J_baseline": 0.3052,
+   "J_hydrodynamic_only": 0.3831,
+   "J_biology_only": 0.4855,
+   "J_full_data_informed": 0.5509,
+   "Mw_full": 85.63,
+   "order_feas": true,
+   "order_J": true
+  }
+ },
+ "influence": {
+  "counts": {
+   "active": 12,
+   "negligible": 6,
+   "weak": 3,
+   "structurally inert": 2
+  },
+  "active": [
+   "f_0",
+   "g_T",
+   "i_P",
+   "f_Mw",
+   "i_S",
+   "i_T",
+   "i_M",
+   "i_0",
+   "f_M",
+   "m_M",
+   "f_G",
+   "f_thin"
+  ],
+  "weak": [
+   "g_M",
+   "i_H",
+   "e_T"
+  ],
+  "negligible": [
+   "g_P",
+   "e_P",
+   "f_R",
+   "r_E",
+   "r_G",
+   "r_thin"
+  ],
+  "structurally inert": [
+   "q_P",
+   "q_S"
+  ]
+ },
+ "sign_flip": {
+  "n": 21,
+  "order_feas": 20,
+  "order_J": 21,
+  "broken": [
+   {
+    "coef": "f_0",
+    "base": -3.0,
+    "feas_baseline": 0.0,
+    "feas_hydrodynamic_only": 0.0,
+    "feas_biology_only": 0.0,
+    "feas_full_data_informed": 0.0,
+    "J_baseline": 0.2083,
+    "J_hydrodynamic_only": 0.263,
+    "J_biology_only": 0.3467,
+    "J_full_data_informed": 0.3714,
+    "order_feas": false,
+    "order_J": true
+   }
+  ]
+ },
+ "cutpoints": {
+  "oat_n": 28,
+  "oat_order_feas": 28,
+  "oat_order_J": 28,
+  "oat_full_range": [
+   0.9158333333333334,
+   0.9916666666666667
+  ],
+  "oat_base_range": [
+   0.1825,
+   0.3075
+  ],
+  "oat_broken": [],
+  "joint": {
+   "order_feas": 1.0,
+   "order_J": 1.0,
+   "feas_baseline": [
+    0.2667,
+    0.1675,
+    0.3383
+   ],
+   "feas_full_data_informed": [
+    0.9725,
+    0.9217,
+    0.9892
+   ],
+   "J_baseline": [
+    0.3022,
+    0.2707,
+    0.3311
+   ],
+   "J_full_data_informed": [
+    0.5128,
+    0.503,
+    0.5187
+   ]
+  }
+ },
+ "ladder": [
+  {
+   "step": "L0 baseline group",
+   "feas": 0.2758,
+   "J": 0.3052,
+   "c_T": 0.7325,
+   "c_G": 0.8875,
+   "c_Mw": 0.605,
+   "c_I": 0.7383,
+   "c_F": 0.5375,
+   "I": 0.5441,
+   "Mw": 64.9357,
+   "F": 0.3821
+  },
+  {
+   "step": "L1 data-derived centres for T and H, baseline dispersion; baseline M, P, S; shared noise; no anchoring",
+   "feas": 0.6367,
+   "J": 0.4015,
+   "c_T": 0.8875,
+   "c_G": 0.8233,
+   "c_Mw": 1.0,
+   "c_I": 0.8408,
+   "c_F": 0.8692,
+   "I": 0.6014,
+   "Mw": 84.1551,
+   "F": 0.1652
+  },
+  {
+   "step": "L2 full-data-informed T and H priors (narrow, clipped); baseline M, P, S; shared noise; no anchoring",
+   "feas": 0.8883,
+   "J": 0.4521,
+   "c_T": 1.0,
+   "c_G": 0.9608,
+   "c_Mw": 1.0,
+   "c_I": 0.925,
+   "c_F": 0.9883,
+   "I": 0.6468,
+   "Mw": 84.2372,
+   "F": 0.0926
+  },
+  {
+   "step": "L3 all full-data-informed priors; shared noise; no anchoring",
+   "feas": 0.95,
+   "J": 0.504,
+   "c_T": 1.0,
+   "c_G": 0.9658,
+   "c_Mw": 1.0,
+   "c_I": 0.98,
+   "c_F": 0.9992,
+   "I": 0.6995,
+   "Mw": 85.63,
+   "F": 0.0703
+  },
+  {
+   "step": "L4 full-data-informed as reported (reduced noise and anchoring)",
+   "feas": 0.9783,
+   "J": 0.5141,
+   "c_T": 1.0,
+   "c_G": 0.9783,
+   "c_Mw": 1.0,
+   "c_I": 1.0,
+   "c_F": 0.9992,
+   "I": 0.7182,
+   "Mw": 85.63,
+   "F": 0.0679
+  },
+  {
+   "step": "Reviewer variant: full-data-informed T and H priors; baseline M, P, S; reduced noise and anchoring",
+   "feas": 0.9642,
+   "J": 0.4703,
+   "c_T": 1.0,
+   "c_G": 0.9708,
+   "c_Mw": 1.0,
+   "c_I": 0.9983,
+   "c_F": 0.9917,
+   "I": 0.684,
+   "Mw": 84.2372,
+   "F": 0.0893
+  }
+ ],
+ "hydro_vs_base": {
+  "baseline": {
+   "T": [
+    0.525,
+    0.247
+   ],
+   "P": [
+    0.496,
+    0.262
+   ],
+   "H": [
+    24.142,
+    9.269
+   ],
+   "M": [
+    0.487,
+    0.258
+   ],
+   "S": [
+    0.489,
+    0.255
+   ]
+  },
+  "hydrodynamic_only": {
+   "T": [
+    0.551,
+    0.159
+   ],
+   "P": [
+    0.511,
+    0.228
+   ],
+   "H": [
+    28.853,
+    10.749
+   ],
+   "M": [
+    0.491,
+    0.261
+   ],
+   "S": [
+    0.49,
+    0.265
+   ]
+  },
+  "biology_only": {
+   "T": [
+    0.618,
+    0.177
+   ],
+   "P": [
+    0.606,
+    0.22
+   ],
+   "H": [
+    58.54,
+    11.01
+   ],
+   "M": [
+    0.276,
+    0.173
+   ],
+   "S": [
+    0.62,
+    0.205
+   ]
+  },
+  "full_data_informed": {
+   "T": [
+    0.619,
+    0.112
+   ],
+   "P": [
+    0.552,
+    0.22
+   ],
+   "H": [
+    59.003,
+    8.087
+   ],
+   "M": [
+    0.229,
+    0.158
+   ],
+   "S": [
+    0.545,
+    0.211
+   ]
+  }
+ },
+ "context_check": {
+  "pulmonary": [
+   23.44,
+   5.55,
+   23.37
+  ],
+  "aortic": [
+   33.82,
+   5.44,
+   32.75
+  ]
+ }
+}

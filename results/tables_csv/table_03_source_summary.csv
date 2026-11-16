@@ -1,0 +1,10 @@
+﻿domain,source_type,priority,status,n_sources
+clinical echo,public credentialed database,High,source mapped; extraction requires credentialed access,1
+clinical echo/imaging,public dataset,Medium,source mapped,1
+credibility standard,guidance/standard,High,mapped,1
+credibility standard,standard,High,mapped,1
+hydrodynamics,experimental paper,Medium,abstract/source mapped,1
+hydrodynamics/scaffold fabrication,experimental paper,Medium,key qualitative extraction started,1
+scaffold biology/hydrodynamics,experimental paper + supplementary XLSX,High,numeric extraction started,1
+scaffold biology/in vivo,experimental paper + supplementary XLSX,High,numeric extraction started,1
+valve testing standard,standard,Medium,mapped,1

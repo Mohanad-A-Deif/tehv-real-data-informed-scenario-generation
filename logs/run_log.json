@@ -1,0 +1,12 @@
+{
+  "timestamp": "2026-11-16T11:01:21.246931",
+  "output_dir": "/tmp/claude-0/-home-claude/bd2e9519-393a-558b-9c8b-0e36baf5572b/scratchpad/gr",
+  "dataset_path": "/mnt/attach/outputs/R2/github correction/data/TEHV_real_data_extraction_dataset_v2.xlsx",
+  "results_path": "/mnt/attach/outputs/R2/github correction/data/TEHV_real_data_informed_generated_results_v1.xlsx",
+  "style_mode": "dark_academic",
+  "save_png_only": true,
+  "n_candidate_rows": 4800,
+  "n_figures": 24,
+  "final_excel": "/tmp/claude-0/-home-claude/bd2e9519-393a-558b-9c8b-0e36baf5572b/scratchpad/gr/excel_outputs/TEHV_all_possible_generated_results.xlsx",
+  "scientific_warning": "Scenario results are literature-calibrated and exploratory; not clinical validation."
+}
